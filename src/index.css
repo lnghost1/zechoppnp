@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700;900&family=Montserrat:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bebas Neue", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-accent: "Montserrat", sans-serif;
+  
+  --color-matte-black: #121212;
+  --color-beer-gold: #ffbf00;
+  --color-ember-red: #8b0000;
+  --color-ice-white: #f8f9fa;
+  --color-dark-wood: #2c1b0e;
+}
+
+@layer base {
+  body {
+    @apply bg-matte-black text-ice-white antialiased;
+  }
+}
+
+@layer utilities {
+  .text-neon-amber {
+    text-shadow: 0 0 10px rgba(255, 191, 0, 0.4), 0 0 20px rgba(255, 191, 0, 0.2);
+  }
+  .text-neon-red {
+    text-shadow: 0 0 10px rgba(139, 0, 0, 0.4), 0 0 20px rgba(139, 0, 0, 0.2);
+  }
+}

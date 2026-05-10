@@ -1,0 +1,135 @@
+import { Category } from './types';
+
+export const MENU_DATA: Category[] = [
+  {
+    id: 'chopps',
+    title: 'Chopp Estalando',
+    icon: 'Beer',
+    items: [
+      {
+        id: 'chopp-300',
+        name: 'Chopp Brahma 300ml',
+        description: 'Servido em caneca congelada a -2ºC. Cremoso e refrescante.',
+        price: 9.90,
+        imageUrl: 'https://images.unsplash.com/photo-1571767454098-246b94fbcf70?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'chopp-500',
+        name: 'Chopp Brahma 500ml',
+        description: 'O clássico de respeito. Colarinho perfeito de 3 dedos.',
+        price: 16.90,
+        imageUrl: 'https://images.unsplash.com/photo-1535958636474-b021ee887b13?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'chopp-vinho',
+        name: 'Chopp de Vinho',
+        description: 'A doçura do vinho com a refrescância do chopp gelado.',
+        price: 14.00,
+        imageUrl: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+    ],
+  },
+  {
+    id: 'espetinhos',
+    title: 'Espetinhos na Brasa',
+    icon: 'Utensils',
+    items: [
+      {
+        id: 'esp-carne',
+        name: 'Espetinho de Alcatra',
+        description: 'Carne macia, tempero da casa e farofa crocante.',
+        price: 15.00,
+        imageUrl: 'https://images.unsplash.com/photo-1532636875304-4c8911a04472?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'esp-kafta',
+        name: 'Kafta Premium',
+        description: 'Mix de carnes selecionadas com hortelã fresca.',
+        price: 14.00,
+        imageUrl: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'esp-pao-alho',
+        name: 'Pão de Alho Recheado',
+        description: 'Muito queijo e o melhor creme de alho da região.',
+        price: 12.00,
+        imageUrl: 'https://images.unsplash.com/photo-1626078299034-9c35cfbb6393?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+    ],
+  },
+  {
+    id: 'carnes',
+    title: 'Cortes Nobres',
+    icon: 'Flame',
+    items: [
+      {
+        id: 'picanha-dose',
+        name: 'Picanha do Zé (500g)',
+        description: 'Tiras de picanha na chapa, acompanha fritas e queijo coalho.',
+        price: 89.00,
+        imageUrl: 'https://images.unsplash.com/photo-1546241072-48010ad2862c?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'costela',
+        name: 'Costela BBQ',
+        description: 'Costelinha suína que solta do osso com molho barbecue artesanal.',
+        price: 75.00,
+        imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+    ],
+  },
+  {
+    id: 'drinks',
+    title: 'Drinks Signature',
+    icon: 'GlassWater',
+    items: [
+      {
+        id: 'caipi-ze',
+        name: 'Caipirinha de Morango',
+        description: 'Vodka premium, morangos frescos e gelo.',
+        price: 22.00,
+        imageUrl: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'gin-maracuja',
+        name: 'Gin Tropical de Maracujá',
+        description: 'Gin, tônica, polpa de maracujá e alecrim.',
+        price: 28.00,
+        imageUrl: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+    ],
+  },
+  {
+    id: 'porcoes',
+    title: 'Para Beliscar',
+    icon: 'UtensilsCrossed',
+    items: [
+      {
+        id: 'porcao-fritas',
+        name: 'Fritas com Cheddar e Bacon',
+        description: 'Batatas crocantes com muito cheddar e farelo de bacon.',
+        price: 38.00,
+        imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+      {
+        id: 'iscas-frango',
+        name: 'Iscas de Frango Empanadas',
+        description: 'Tiras de frango suculentas com molho de mel e mostarda.',
+        price: 45.00,
+        imageUrl: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=80&w=400',
+        available: true,
+      },
+    ],
+  },
+];
