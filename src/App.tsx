@@ -220,7 +220,7 @@ export default function App() {
             <section 
               key={category.id} 
               id={category.id}
-              ref={(el) => (categoryRefs.current[category.id] = el)}
+              ref={(el) => { categoryRefs.current[category.id] = el as HTMLDivElement | null }}
               className="scroll-mt-40"
             >
               <div className="mb-12 flex items-end gap-6">
